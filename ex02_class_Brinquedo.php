@@ -20,7 +20,7 @@
             echo "Alterando brinquedo";
         }
         public function mostrar(){
-            echo "<br>Código :  ".$codigo."<br>Nome : ".$nome."<br>Descrição : ".$descricao."<br>Preço : ".$preco;
+            echo "<br>Código :  ".$this->codigo."<br>Nome : ".$this->nome."<br>Descrição : ".$this->descricao."<br>Preço : ".$this->preco;
         }
             
     }

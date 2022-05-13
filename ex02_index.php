@@ -3,7 +3,7 @@
 <head><meta charset="UTF-8"><title>Document</title></head>
 <body>
   <?php
-    require_once 'ex_02.php';
+    require_once 'ex_02_class_Brinquedo.php';
     $b1 = new Brinquedo;
     $b1->codigo = 123456;
     $b1->nome = "Lego";
