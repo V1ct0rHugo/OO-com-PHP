@@ -12,6 +12,8 @@
     
     print_r($b1);
 
+    var_dump($b1);
+
     //$b1->mostrar()
     
   ?>
